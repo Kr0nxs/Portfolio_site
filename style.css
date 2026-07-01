@@ -1,0 +1,53 @@
+/* Basic page styling */
+body {
+  margin: 0;                /* remove default browser margin */
+  padding: 0;               /* remove default browser padding */
+  font-family: Arial, sans-serif; /* simple readable font */
+  background-color: #f4f4f4; /* light gray page background */
+  color: #333;              /* dark gray text color */
+}
+
+/* Center content and limit width */
+.container {
+  max-width: 960px;         /* prevent content from stretching too wide */
+  margin: 0 auto;           /* center horizontally */
+  padding: 20px;            /* space inside the container */
+}
+
+/* Main heading style */
+h1 {
+  font-size: 2rem;          /* relative font size */
+  margin-bottom: 0.5rem;    /* space below the heading */
+  color: #222;              /* slightly darker header color */
+}
+
+/* Paragraph style */
+p {
+  line-height: 1.6;         /* make text easier to read */
+  margin-bottom: 1rem;      /* space after paragraphs */
+}
+
+/* Link style */
+a {
+  color: #0077cc;           /* blue links */
+  text-decoration: none;    /* remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* underline on hover */
+}
+
+/* Simple button style */
+.button {
+  display: inline-block;    /* allow padding and width */
+  background-color: #0077cc; /* blue button background */
+  color: #fff;              /* white text */
+  padding: 10px 20px;       /* space inside the button */
+  border: none;             /* remove default border */
+  border-radius: 4px;       /* rounded corners */
+  cursor: pointer;          /* pointer on hover */
+}
+
+.button:hover {
+  background-color: #005fa3; /* darker blue on hover */
+}
