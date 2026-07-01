@@ -1,10 +1,10 @@
 /* Basic page styling */
 body {
-  margin: 0;                /* remove default browser margin */
+  margin: 5%;                /* remove default browser margin */
   padding: 0;               /* remove default browser padding */
   font-family: Arial, sans-serif; /* simple readable font */
-  background-color: #f4f4f4; /* light gray page background */
-  color: #333;              /* dark gray text color */
+  background-color: #3a2878; 
+  color: #fbf6f6;             
 }
 
 /* Center content and limit width */
@@ -18,7 +18,7 @@ body {
 h1 {
   font-size: 2rem;          /* relative font size */
   margin-bottom: 0.5rem;    /* space below the heading */
-  color: #222;              /* slightly darker header color */
+  color: #fbf6f6;              /* slightly darker header color */
 }
 
 /* Paragraph style */
@@ -29,7 +29,7 @@ p {
 
 /* Link style */
 a {
-  color: #0077cc;           /* blue links */
+  color: #41b0ff;           /* blue links */
   text-decoration: none;    /* remove underline */
 }
 
